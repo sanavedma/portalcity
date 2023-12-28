@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #5D7B96;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 15% 0 15%;
+}
+
+.nav-item {
+    color: #fff;
+    font-family: Coda Caption;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-item #registration {
+    padding: 10px 15px;
+    border-radius: 50px;
+    border: 2px solid #ffffff; 
+}
+
+.logo img {
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.registrationInner {
+    display: flex;
+    justify-content: center;
+}
+
+.registration {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+    border: 3px solid #C9EBFF;
+    background: rgba(201, 235, 255, 0.10);
+    width: min-content;
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    margin-top: 25px;
+}
+
+form input {
+    display: flex;
+    width: 600px;
+    padding: 16px 48px;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 50px;
+    border: 3px solid #FED989;
+    background: rgba(254, 217, 137, 0.20);
+
+    color: #FFF;
+    font-family: Coda Caption;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+input::placeholder {
+    color: #FFF;
+    font-family: Coda Caption;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+button {
+    display: inline-flex;
+    padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-radius: 50px ;
+    background: #FED989;
+    border-color: #FED989;
+
+    color: #000;
+    font-family: Coda Caption;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.registration h1 {
+    color: #FFF;
+    font-family: Coda Caption;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+
+
+.check {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+    padding-left: 75px;
+    padding-right: 75px;
+    width: 100%;
+
+    color: rgba(255, 255, 255);
+    font-family: Coda Caption;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.check input {
+    border-radius: 2px;
+    background: #FED989;
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0;
+}
+
+.checkInner {
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+  
+.check input::before {
+    content: url();
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    border-radius: 2px;
+    background-color: #ffffff;
+  }
+  
+.check input:checked::before {
+    background: #FED989;
+    content: url(img/carbon_checkmark.svg);
+    color: black;
+    display: flex;
+    gap: 0;
+}

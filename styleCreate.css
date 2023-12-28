@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #5D7B96;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 15% 0 15%;
+}
+
+.nav-item {
+    color: #fff;
+    font-family: Coda Caption;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo img {
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+h1 {
+    color: #FFF;
+    font-family: Coda Caption;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+input[type="text"] {
+    width: 1310px;
+    height: 90px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 3px solid #C9EBFF;
+    background: rgba(201, 235, 255, 0.10);
+    color: #FFF;
+    font-family: Coda Caption;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 50px;
+}
+
+input::placeholder {
+    color: #FFF;
+    font-family: Coda Caption;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+textarea {
+    width: 1309px;
+    height: 235px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 3px solid #C9EBFF;
+    background: rgba(201, 235, 255, 0.10);
+    resize: none;
+    color: #FFF;
+    font-family: Coda Caption;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 50px;
+}
+
+textarea::placeholder {
+    color: #FFF;
+    font-family: Coda Caption;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+select {
+    width: 1360px;
+    height: 90px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 3px solid #C9EBFF;
+    background: rgba(201, 235, 255, 0.10);
+    color: #FFF;
+    font-family: Coda Caption;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding-left: 50px;
+
+    appearance: none;
+    -webkit-appearance: none; /* Safari и Chrome */
+    -moz-appearance: none; /* Mozilla */
+    -ms-appearance: none; /* IE */
+    background-image: url("img/create/iconamoon_arrow-down-2-thin.svg");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 15px) center;
+
+    outline: none;
+    cursor: pointer;
+}
+
+option {
+    color: black;
+    background-color: #5D7B96;
+}
+
+select option:checked {
+    background-color:#C9EBFF !important; /* for IE */
+    color: #000000 !important;
+}
+
+:focus{
+    border-color:#C9EBFF;
+    outline:none;
+}
+
+::selection {
+    background: #FED989;; /* Safari */
+}
+::-moz-selection {
+    background: #FED989;; /* Firefox */
+}
+
+.file {
+    width: 1360px;
+    height: 235px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 3px solid #C9EBFF;
+    background: rgba(201, 235, 255, 0.10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.file img {
+    width: 150px;
+    height: 150px;
+}
+
+#upload-container label {
+    color: #FFF;
+    font-family: Coda Caption;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+#upload-container label:hover {
+    cursor: pointer;
+}
+
+#upload-container div {
+    position: relative;
+    z-index: 10;
+    width: 1360px;
+}
+
+#upload-container input[type=file] {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    position: absolute;
+    z-index: -10;
+}
+
+:focus {
+    border-color:#C9EBFF;
+    outline:none;
+}
+
+#upload-container input[type=file]:focus + label {
+    border-color:#C9EBFF;
+    outline:none;
+}
+
+.createRequestButton {
+    display: flex;
+    padding: 16px 48px;
+    justify-content: center;
+}
+
+.createRequestButton button {
+    color: #000;
+    font-family: Coda Caption;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+
+    display: flex;
+    padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    background: #FED989;
+    margin-top: 50px;
+    margin-bottom: 100px;
+
+    border: #FED989;
+}
+
+footer {
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.40);
+    padding: 50px 100px 50px 100px;
+}
+
+footer h5 {
+    color: #000;
+    font-family: Coda Caption;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: start;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.iconImage {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+footer a {
+    color: #000;
+}
+
+.reportProblem {
+    font-family: Coda Caption;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+
+    display: inline-flex;
+    padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: #FED989;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.footerInfo {
+    color: #000;
+    text-align: right;
+    font-family: Coda Caption;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}

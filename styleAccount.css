@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #5D7B96;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 15% 0 15%;
+}
+
+.nav-item {
+    color: #fff;
+    font-family: Coda Caption;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo img {
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.previewProfife {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    width: 1310px;
+    padding-right: 50px;
+    align-items: center;
+    gap: 290px;
+}
+
+.profileImage {
+    width: 367px;
+    height: 417px;
+    flex-shrink: 0;
+    background: rgba(201, 235, 255, 0.40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileInform {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.Date {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+    color: #FFF;
+    font-family: Coda Caption;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.Date p {
+    padding-left: 10px;
+}
+
+main {
+    padding: 50px 150px 100px 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+main h1 {
+    color: #FFF;
+    font-family: Coda Caption;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+.container {
+    width:100%;
+}
+input[type="radio"] {
+    display:none;
+}
+label {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 48px;
+    border-radius: 50px;
+    border: #FED989 dashed 3px;
+    height: 46px;
+    float: left;
+    margin: 0 25px 50px 0 ;
+
+    color: white;
+    font-family: Coda Caption;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align:center;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    cursor:pointer;
+}
+input[type="radio"][id="blue"]:checked + label {
+  background:#FED989;
+  color: #000;
+}
+input[type="radio"][id="blue"]:checked ~ .red, input[type="radio"][id="blue"]:checked ~ .green {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+}
+input[type="radio"][id="red"]:checked + label {
+  background:#FED989;
+  color: #000;
+}
+input[type="radio"][id="red"]:checked ~ .blue, input[type="radio"][id="red"]:checked ~ .green {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+}
+input[type="radio"][id="green"]:checked + label {
+  background:#FED989;
+  color: #000;
+}
+input[type="radio"][id="green"]:checked ~ .blue, input[type="radio"][id="green"]:checked ~ .red {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+}
+ 
+.tile {
+  width: 100%;
+  transition:all 1s;
+  margin-bottom: 50px;
+}
+
+.filters {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    align-items: center;
+    gap: 25px;
+}
+
+.filtersButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 48px;
+    border-radius: 50px;
+    background: #FED989;;
+    gap: 10px;
+
+    color: #000;
+    font-family: Coda Caption;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.applications {
+    padding: 25px 50px;
+    display: inline-flex;
+    padding: 25px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    border: 3px solid #C9EBFF;
+}
+
+.applicationInner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.applicationInner h2 {
+    color: #FFF;
+    font-family: Coda Caption;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.applicationInner p {
+    color: #E9F7FF;
+    text-align: justify;
+    font-family: Coda Caption;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.close {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.restoration {
+    color: #FED989;
+    font-family: Coda Caption;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.finish {
+    color: #FFC13A;
+    font-family: Coda Caption;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.tags {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.finishRed {
+    color: #B51100;
+    font-family: Coda Caption;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.finishGreen {
+    color: #CDFFBD;
+    font-family: Coda Caption;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+} 
+
+footer {
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.40);
+    padding: 50px 100px 50px 100px;
+}
+
+footer h5 {
+    color: #000;
+    font-family: Coda Caption;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: start;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.iconImage {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+footer a {
+    color: #000;
+}
+
+.reportProblem {
+    font-family: Coda Caption;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+
+    display: inline-flex;
+    padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: #FED989;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.footerInfo {
+    color: #000;
+    text-align: right;
+    font-family: Coda Caption;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.createRequest {
+    display: flex;
+    padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: #FED989;
+    
+}
+
+.createRequestButton {
+    display: flex;
+    padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+}
+
+.createRequestButton a {
+    color: #000;
+    text-align: center;
+    font-family: Coda Caption;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}

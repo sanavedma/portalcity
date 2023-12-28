@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #5D7B96;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 15% 0 15%;
+}
+
+.nav-item {
+    color: white;
+    font-family: Coda Caption;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-item {
+    display: flex;
+    gap: 10px;
+}
+
+.logo img {
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+h1 {
+    color: #FFF;
+    font-family: Coda Caption;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+main {
+    padding: 0 5%;
+    margin-bottom: 100px;
+}
+
+.panelIcons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.applications {
+    padding: 25px 50px;
+    display: inline-flex;
+    padding: 25px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    border: 3px solid #C9EBFF;
+}
+
+.applicationInner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.applicationInner h2 {
+    color: #FFF;
+    font-family: Coda Caption;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.applicationInner p {
+    color: #E9F7FF;
+    text-align: justify;
+    font-family: Coda Caption;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+select  {
+    background-color: #5D7B96;
+    width: 270px;
+    height: 86px;
+
+    color: #CDFFBD;
+    font-family: Coda Caption;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+
+    border: #5D7B96;
+}
+
+.restoration {
+    color: #FED989;
+    font-family: Coda Caption;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.finish {
+    color: #FFC13A;
+    font-family: Coda Caption;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.tags {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.finishRed {
+    color: #B51100;
+    font-family: Coda Caption;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.finishGreen {
+    color: #CDFFBD;
+    font-family: Coda Caption;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+} 
+
+footer {
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.40);
+    padding: 50px 100px 50px 100px;
+}
+
+footer h5 {
+    color: #000;
+    font-family: Coda Caption;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: start;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.iconImage {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+footer a {
+    color: #000;
+    text-decoration: none
+}
+
+.reportProblem {
+    font-family: Coda Caption;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+
+    display: inline-flex;
+    padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: #FED989;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.footerInfo {
+    color: #000;
+    text-align: right;
+    font-family: Coda Caption;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}

@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #5D7B96;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 15% 0 15%;
+}
+
+.nav-item {
+    color: #000;
+    font-family: Coda Caption;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.header a {
+    text-decoration: none;
+    color: #000;
+}
+
+.nav-item {
+    display: flex;
+    gap: 10px;
+}
+
+.logo img {
+    width: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.blur {
+    filter: blur(5px); /* Измените значение размытия по вашему усмотрению */
+}
+
+.header {
+    background-image: url(img/admonistration/image\ 1.svg) ;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.title {
+    color: #FFF;
+    text-align: center;
+    font-family: Coda Caption;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    position: absolute;
+    width: 1020px;
+    left: calc(50% - 500px);
+    top: calc(50% - 150px)
+}
+
+.mainTitle {
+    color: #FFF;
+    font-family: Coda Caption;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+table {
+    width: 1528px;
+    border: 3px solid #C9EBFF;
+    border-collapse: collapse;
+}
+
+table a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: #FED989;
+    padding: 16px 48px;
+    border-color:#FED989;
+
+    color: #000;
+    text-align: center;
+    font-family: Coda Caption;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+
+    margin-top: 50px;
+}
+
+.tableButton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tableButton a {
+    text-decoration: none;
+    color: #000;
+}
+
+td {
+    color: #FFF;
+    text-align: center;
+    font-family: Coda Caption;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    padding: 25px 0 25px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+td {
+    border: 3px solid #C9EBFF;
+}
+
+.Icon {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    flex-shrink: 0;
+    background: rgba(255, 255, 255, 0.40);
+    padding: 50px 100px 50px 100px;
+}
+
+footer h5 {
+    color: #000;
+    font-family: Coda Caption;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: start;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.iconImage {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.reportProblem {
+    color: #000;
+    font-family: Coda Caption;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+
+    display: inline-flex;
+    padding: 16px 48px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background: #FED989;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.footerInfo {
+    color: #000;
+    text-align: right;
+    font-family: Coda Caption;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+}
+
+@media (max-width: 400px) {
+    .title {
+        font-size: 48px;
+    }
+}
