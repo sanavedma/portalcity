@@ -571,25 +571,15 @@ footer h5 {
     }
     
     footer {
-        flex-shrink: 0;
-        background: rgba(255, 255, 255, 0.40);
-        padding: 50px 100px 50px 100px;
+        padding: 12px 17px 12px 17px;
     }
     
     footer h5 {
-        color: #000;
-        font-family: Coda Caption;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: normal;
-        text-align: start;
+        font-size: 8px;
     }
     
     .icons {
-        display: flex;
-        align-items: center;
-        gap: 50px;
+        gap: 10px;
     }
     
     .iconImage {
@@ -599,34 +589,18 @@ footer h5 {
     }
     
     .reportProblem {
-        color: #000;
-        font-family: Coda Caption;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: normal;
-        text-transform: uppercase;
+        font-size: 6px;
     
-        display: inline-flex;
-        padding: 16px 48px;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50px;
-        background: #FED989;
-        margin-top: 50px;
+        padding: 4px 8px;
+        margin-top: 25px;
         margin-bottom: 15px;
     }
     
     .footerInfo {
-        color: #000;
-        text-align: right;
-        font-family: Coda Caption;
-        font-size: 24px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: normal;
-        text-transform: uppercase;
-    
+        font-size: 8px;
+        width: 233px;
+        height: 57px;
+        flex-shrink: 0;
     }
     
     .blur {
