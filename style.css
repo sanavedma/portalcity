@@ -288,6 +288,11 @@ footer h5 {
     gap: 50px;
 }
 
+.icons img {
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+
 .iconImage {
     display: flex;
     justify-content: center;
